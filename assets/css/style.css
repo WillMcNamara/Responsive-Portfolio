@@ -172,12 +172,54 @@ input[type=submit] {
 
 @media screen and (max-width: 768px) {
     .content {
+        height: auto;
         width: 640px;
+    }
+    .portcontent {
+        height: 500px;
+    }
+    .header {
+        height: 50px;
+    }
+    h1 {
+        height: 40px;
+        padding: 10px;
+        font-size: 20px;
+        left: 10%;
+    }
+    .main
+        {
+        height: 550px;
+        top: 52px;
+    }
+    footer {
+        height: 30px;
+        padding-top: 8px;
     }
 }
 
 @media screen and (max-width: 640px) {
     .content {
         width: 100%;
+    }
+    h1 {
+        width: 100%;
+        top: 0;
+        left: 0;
+        padding: 10px;
+        height: 45px;
+    }
+    .headerlink {
+        width: 100%;
+        top: 60px;
+        height: 15px;
+        right: 0;
+    }
+    .header {
+        height: 90px;
+        position: static;
+    }
+    .main {
+        top: 3px;
     }
 }
