@@ -187,6 +187,9 @@ input[type=submit] {
         font-size: 20px;
         left: 10%;
     }
+    .headerlink {
+        bottom:40%
+    }
     .main
         {
         height: 550px;
@@ -221,5 +224,9 @@ input[type=submit] {
     }
     .main {
         top: 3px;
+    }
+
+    .projecteven {
+        margin-right: 100px;
     }
 }
